@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hole1.mywebviewer.MainActivity">
+
+    <GridLayout
+        android:id="@+id/gridLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:rowCount="3"
+        tools:layout_height="0dp">
+
+        <TextView
+            android:id="@+id/mesaView"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginRight="80dp"
+            android:text="@string/webViewerTitle"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/clickView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/assignmentView"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/ucsdView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/webViewerUCSD"
+            android:textSize="24sp"
+            tools:layout_editor_absoluteX="411dp"
+            tools:layout_editor_absoluteY="570dp" />
+
+        <Button
+            android:id="@+id/buttonUCSD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_blue_bright"
+            android:text="@string/buttonUCSD"
+            android:textColor="@android:color/white"
+            tools:layout_editor_absoluteX="315dp"
+            tools:layout_editor_absoluteY="64dp" />
+
+        <TextView
+            android:id="@+id/amazonView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/webViewerAmazon"
+            android:textSize="24sp"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="128dp" />
+
+        <Button
+            android:id="@+id/buttonAmazon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_orange_light"
+            android:text="@string/buttonAmazon"
+            android:textColor="@android:color/white"
+            tools:layout_editor_absoluteX="315dp"
+            tools:layout_editor_absoluteY="136dp" />
+
+    </GridLayout>
+
+</android.support.constraint.ConstraintLayout>

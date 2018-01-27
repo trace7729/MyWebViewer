@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MyWebViewer</string>
+    <string name="webViewerTitle">Please choose a website</string>
+    <string name="buttonUCSD">Go</string>
+    <string name="buttonAmazon">Go</string>
+    <string name="webViewerUCSD">UCSD Extension</string>
+    <string name="webViewerAmazon">Amazon</string>
+    <string name="assignmentView">click \"Go\" button</string>
+</resources>
